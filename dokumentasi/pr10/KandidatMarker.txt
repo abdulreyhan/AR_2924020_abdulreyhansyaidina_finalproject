@@ -1,0 +1,36 @@
+================================================================================
+01_KandidatMarker_MarkerAR
+================================================================================
+
+1. TABEL PERBANDINGAN KANDIDAT MARKER
+--------------------------------------------------------------------------------
+Parameter Evaluasi     | Kandidat 1: Marker A      | Kandidat 2: Marker B
+                       | (Simbol/Geometris)       | (Ilustrasi Tekstur/Organik)
+--------------------------------------------------------------------------------
+Kontras Warna          | Tinggi                   | Sedang
+Kerapatan Fitur        | Sedang                   | Sangat Tinggi
+Asimetris & Keunikan   | Asimetris dua sumbu     | Asimetris penuh
+Skor/Rating Vuforia    | 4 / 5 Star               | 5 / 5 Star
+Stabilitas Tracking    | Stabil, rentan jitter    | Sangat stabil di berbagai
+                       | pada jarak jauh          | sudut dan jarak
+--------------------------------------------------------------------------------
+
+2. ALASAN PEMILIHAN MARKER FINAL
+--------------------------------------------------------------------------------
+Marker Final yang dipilih adalah Kandidat 2 (Marker B) dengan pertimbangan 
+teknis sebagai berikut:
+
+1. Detail Fitur yang Kaya (High Feature Point Count):
+   Memiliki distribusi titik unik (feature points) yang merata di seluruh area 
+   gambar, sehingga memudahkan algoritma computer vision untuk mendeteksi 
+   dan melacak image target.
+
+2. Kontras & Asimetri Tinggi:
+   Gambar tidak memiliki pola simetris berulang yang dapat membingungkan 
+   sistem saat menentukan orientasi sumbu (X, Y, Z) dari objek AR.
+
+3. Stabilitas Tracking:
+   Menghasilkan augmentasi objek 3D yang jauh lebih stabil (bebas dari flicker 
+   atau posisi melompat) saat kamera digerakkan atau berada pada kondisi 
+   pencahayaan yang bervariasi.
+================================================================================
