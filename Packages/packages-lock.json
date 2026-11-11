@@ -84,6 +84,7 @@
       "source": "builtin",
       "dependencies": {}
     },
+<<<<<<< HEAD
     "com.unity.microsoft.gdk": {
       "version": "1.7.1",
       "depth": 0,
@@ -109,6 +110,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> 7f11c42e611b094be2afb78310903fe3767932c8
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
       "depth": 3,

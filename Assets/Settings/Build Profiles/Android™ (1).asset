@@ -23,8 +23,13 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
+<<<<<<< HEAD
     m_path: Assets/Scenes/pertemuan_11.unity
     m_guid: b1812263b8a97fb4487b74df4738fffa
+=======
+    m_path: Assets/Scenes/pertemuan_10.unity
+    m_guid: b9bdc5a6152170c41b4097810e2aacc1
+>>>>>>> 7f11c42e611b094be2afb78310903fe3767932c8
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
